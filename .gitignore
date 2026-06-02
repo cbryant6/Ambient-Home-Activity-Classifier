@@ -1,0 +1,32 @@
+# Datasets (download separately per README instructions)
+ESC-50/
+LibriSpeech/
+*.tar.gz
+
+# Generated pipeline outputs
+processed/
+processed_v2/
+models/
+models_v2/
+arduino_deploy/
+arduino_deploy_f32/
+arduino_deploy_v2/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

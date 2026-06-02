@@ -1,0 +1,8 @@
+tensorflow>=2.15.0
+tensorflow-hub>=0.16.1
+librosa>=0.10.1
+soundfile>=0.12.1
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+audiomentations>=0.35.0
+numpy>=1.24.0
