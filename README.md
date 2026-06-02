@@ -14,8 +14,6 @@ Built on a **XIAO ESP32S3** microcontroller with a custom on-device DSP pipeline
  | ![Device running](_<img width="1064" height="1129" alt="image" src="https://github.com/user-attachments/assets/73b86fb4-2d08-4529-b275-73cbb1161647" />
  <img width="1204" height="986" alt="image" src="https://github.com/user-attachments/assets/b7950a2c-14e5-4fcd-8c9b-2cf49f0070af" />
 
-| *Enclosed device — front* | *Live classification* | *Confidence ring UI* |
-
 
 ---
 
