@@ -95,41 +95,6 @@ I2S Microphone (16 kHz)
 
 ---
 
-## 📁 Repository Structure
-
-```
-├── pipeline/
-│   ├── 01_prepare_dataset.py       # Download ESC-50 + LibriSpeech, augment, split
-│   ├── 02_fine_tune_yamnet.py       # Train small CNN with custom MFCC features
-│   ├── 03_quantize_and_profile.py   # Convert to TFLite (float32/float16/INT8)
-│   ├── 04_export_to_c_header.py     # Convert .tflite → C array for Arduino
-│   └── README.md
-│
-├── arduino/
-│   ├── ambient_classifier/
-│   │   ├── ambient_classifier.ino   # Main inference + display sketch
-│   │   ├── model_data.h             # Trained model as C byte array
-│   │   └── class_config.h           # Class names, colors, MFCC config
-│   └── data_recorder/
-│       └── data_recorder.ino        # Device recording sketch for data collection
-│
-├── tools/
-│   └── record_clips.py              # Python serial capture for device recordings
-│
-├── models/
-│   ├── small_cnn.keras              # Trained Keras model
-│   ├── model_float32.tflite         # Float32 TFLite
-│   ├── model_float16.tflite         # Float16 TFLite
-│   ├── model_int8.tflite            # INT8 TFLite (note: calibration issues)
-│   ├── mfcc_config.json             # Feature config for deployment
-│   └── quantization_summary.json    # Size/accuracy tradeoff data
-│
-└── docs/
-    └── Development_Journal.docx     # Full design decision log
-```
-
----
-
 ## ⚡ Key Technical Decisions
 
 **Why float32 instead of INT8?**
