@@ -6,11 +6,8 @@ Built on a **XIAO ESP32S3** microcontroller with a custom on-device DSP pipeline
 
 ---
 
-## 📸 
+[Uploading Ambient_Classifier_Poster (1).pdf…]()
 
-<img width="1092" height="1115" alt="image" src="https://github.com/user-attachments/assets/c6d2ef29-758e-405d-859b-14678a19a340" />
-<img width="1064" height="1129" alt="image" src="https://github.com/user-attachments/assets/73b86fb4-2d08-4529-b275-73cbb1161647" />
-<img width="1204" height="986" alt="image" src="https://github.com/user-attachments/assets/b7950a2c-14e5-4fcd-8c9b-2cf49f0070af" />
 
 
 ---
