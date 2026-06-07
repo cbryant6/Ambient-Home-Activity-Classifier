@@ -8,7 +8,8 @@ Built on a **XIAO ESP32S3** microcontroller with a custom on-device DSP pipeline
 
 <img width="7200" height="10800" alt="Ambient_Classifier_Poster (1)" src="https://github.com/user-attachments/assets/31c53b43-7302-4e62-a289-3bbe24f74582" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3759f339-efbe-4780-a1fd-558b582e494a" />
+<img width="1920" height="1031" alt="Ambient Home Activity Classifier Schematic" src="https://github.com/user-attachments/assets/ab5bb583-a6e4-4005-b95f-343d94fcc520" />
+
 
 
 
